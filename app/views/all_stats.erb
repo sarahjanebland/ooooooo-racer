@@ -1,0 +1,33 @@
+<div class="hero-unit">  
+  <div><h1>All statistics</h1></div>
+  <div><a href="/" class="btn btn-primary btn-large">Play again!</a></div>
+</div>
+
+<div class="stats-table">
+  <table class="table">
+    <tr>
+      <th>#</th>
+      <th>Player 1</th>
+      <th>Player 2</th>
+      <th>Winner</th>
+      <th>Time (sec.)</th>
+      <th>Link</th>
+    </tr>
+
+    <% @games.each do |game| %>
+    <tr>
+      <td><%= game.id %></td>
+      <td><%= Player.find(game.player1_id).name.capitalize %></td>
+      <td><%= Player.find(game.player2_id).name.capitalize %></td>
+      <td><%= Player.find(game.winner).name.capitalize %></td>
+      <td><%=game.time %></td>
+      <td><a href='/game/<%= game.url %>'><%= game.url %></a>
+    </tr>
+    <% end %>
+  </table>
+</div>
+
+
+
+
+

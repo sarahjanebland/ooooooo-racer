@@ -1,0 +1,47 @@
+<div class="hero-unit">
+  <div>
+    <h1>The tortoise and the hare.</h1>
+  </div>
+  
+  <div>
+    <div class="pull-left">
+      <form action="/" method="post" id="main-form">
+        <input type="text" placeholder="Player 1" name="form1[name]">
+        <input type="text" placeholder="Player 2" name="form2[name]">
+        <input type="submit" id='play_button' class="btn btn-primary btn-large" value="Play!">
+      </form>
+    </div>
+    <div>
+      <a href='/game/all_stats' class="btn btn-large">All Stats</a>
+    </div>
+  </div>
+
+  <div class="warnings">
+    <div class="p1">
+      <b>Player 1</b>, you advance by pressing the letter "Q"
+    </div>
+    <span class="p2">
+      <b>Player 2</b>, you have to find your advance key. Btw, it changes each game :)
+    </span>
+  </div>
+</div>
+
+<div>
+  <div id='container' class="bottom-half opaque">
+    <H2>Go!</h2>
+    
+    <table class="racer_table1">
+      <tr id="player1_strip">
+      </tr>
+    </table>
+
+    <BR>
+
+    <table class="racer_table2">
+      <tr id="player2_strip">
+      </tr>
+    </table>
+  </div>
+</div>
+
+

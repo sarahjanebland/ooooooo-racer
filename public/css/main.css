@@ -1,0 +1,70 @@
+.override .racer_table1 td, .override .racer_table2 td {
+  border: 3px solid black;
+  height: 30px;
+  width: 30px;
+}
+
+.override .racer_table1 td.active {
+  background-image:url("../img/hare.jpg");
+  height: 30px;
+  width: 30px;
+}
+.override .racer_table2 td.active {
+  background-image:url("../img/turtle.jpg");
+  height: 30px;
+  width: 30px;
+}
+
+.override .opaque {
+  opacity:0.2;
+}
+
+.override .btn {
+  margin: 5px;
+}
+
+.override input {
+  margin: 0;
+}
+
+.override .alert .alert-block .instructions {
+  width: 100px;
+  margin: 0;
+}
+
+.override .p1 {
+  width: 500px;
+  padding: 0;
+}
+
+.override .p2 {
+  width: 170px;
+  padding: 0;
+}
+
+.override .hero-unit {
+  background-image:url("../img/grass2.jpg");
+  background-repeat: no-repeat;
+  height: 330px;
+  border-radius: 0;
+}
+
+.override .bottom-half {
+  margin-left: 60px;
+}
+
+.override .stats-table {
+  padding: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
